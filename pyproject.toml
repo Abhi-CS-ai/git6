@@ -1,0 +1,14 @@
+
+[project]
+name = "outlook-email-scanner"
+version = "0.1.0"
+description = "Background application for scanning Outlook emails using VirusTotal API"
+authors = ["Your Name <you@example.com>"]
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.28.0",
+    "msal>=1.22.0"
+]
+
+[project.optional-dependencies]
+dev = ["black", "pytest"]
